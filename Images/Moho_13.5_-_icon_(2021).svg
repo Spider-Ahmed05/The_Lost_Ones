@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="112.88889mm"
+   height="112.88889mm"
+   viewBox="0 0 399.99999 399.99999"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Moho 13.5 - icon (2021).svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.50362888"
+     inkscape:cx="215.61867"
+     inkscape:cy="197.6097"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-156.42857,-323.7908)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3336"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.5px;line-height:125%;font-family:'FreightSans Black';-inkscape-font-specification:'FreightSans Black';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+         id="flowRegion3338"><rect
+           id="rect3340"
+           width="474.28571"
+           height="225.71428"
+           x="80"
+           y="395.21936" /></flowRegion><flowPara
+         id="flowPara3346" /></flowRoot>    <path
+       style="fill:#f5551f;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 199.00005,413.9458 c 0,0 45.45686,-6.06092 75.76144,87.88327 0,0 2.52434,-53.0344 34.85026,-55.55839 41.41511,-3.23366 63.13454,63.63961 63.13454,63.63961 0,0 8.15079,-36.10813 43.18402,-36.61803 48.44059,-0.70505 75.5089,76.51905 75.5089,76.51905 0,0 -26.76904,-10.10152 -45.96194,13.63706 0,0 -18.47376,-54.43417 -31.06219,-50.76016 -20.68223,6.03623 -12.86168,85.15125 -10.85914,101.77287 0.9076,7.53335 -7.07692,16.90954 -14.64721,17.42513 -8.38377,0.57099 -17.464,-8.60646 -18.68782,-16.92006 -8.2432,-55.99724 -36.12084,-146.71284 -58.58885,-141.92643 -24.40895,5.19989 -14.3826,117.94747 -14.14214,143.94674 0.0851,9.20487 -2.43882,15.83255 -8.58629,16.41498 -6.74038,0.63859 -11.80153,-6.72958 -12.62691,-15.90991 C 267.10471,515.47502 235.36554,429.60316 199.00005,413.9458 Z"
+       id="path3363"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscsccssssssssc" />
+    <path
+       transform="matrix(1,0,0.07148719,0.99744152,0,0)"
+       style="opacity:1;fill:#f5551f;fill-opacity:1;stroke:none;stroke-width:1.00128174;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:2.25;stroke-opacity:1"
+       d="m 465.18695,599.3269 c 0,19.01698 -12.17716,34.43329 -27.19846,34.43329 -15.02129,-10e-6 -27.19845,-15.41631 -27.19845,-34.43329 0,-19.01697 12.17716,-34.43327 27.19845,-34.43328 15.02129,0 27.19846,15.4163 27.19846,34.43328 z"
+       id="path3365"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sssss" />
+  </g>
+</svg>

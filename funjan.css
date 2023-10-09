@@ -1,0 +1,550 @@
+@font-face {
+    font-family: cairo;
+    src: url(Cairo/Cairo-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: speed;
+    src: url(speed-fez-italic-font/SpeedFezItalic-MV5Mw.otf);
+}
+
+:root{
+    --magenta-pantone: #C7477Cff;
+--dark-purple: #241433ff;
+--black: #000000ff;
+--dark-purple_ground: rgb(15, 8, 20);
+--eminence: #6A3A8Aff;
+--black-2: #08010f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "cairo";
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background:  radial-gradient(var(--black), var(--dark-purple_ground), var(--black),var(--dark-purple_ground), var(--dark-purple_ground));
+    /* width: 100vw; */
+    position: relative;
+
+}
+
+.back{
+    background-color: transparent;
+    width: 100%; 
+    height: 100%;
+    position: absolute;
+    background-image: url(Images/mountainsr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+    z-index: -100;
+}
+
+
+p{
+    font-weight: 700;
+}
+
+.id-card{
+    position: relative;
+    z-index: 1;
+    background-color: #b35500;
+}
+.id-card::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-2);
+    z-index: -1;
+    clip-path: polygon(0% 0%, 0% 100%, 8% 100%, 100% 0%);
+
+}
+
+.service::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--black-2);
+    z-index: -1;
+    clip-path: polygon(0% 0%, 0% 100%, 0% 100%, 100% 0%);
+
+}
+
+
+hr{
+    position: fixed;
+    width: 100vw;
+    left: 0;
+}
+
+.hr-t{
+    top: 100px;
+}
+
+.hr-b{
+    bottom: 200px;
+}
+
+.sec-1{
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: url(Images/mountainsr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+    z-index: 100; */
+}
+
+.sec-1 .id{
+    margin: 70px 0px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    
+}
+
+.spider{
+    font-weight: 800;
+}
+
+
+.sec-1 .id::after{
+    content: "";
+    background-color: var(--magenta-pantone);
+    width: 110px;
+    height: 100%;
+    border-radius: 10px;
+    opacity: 0.5;
+    margin: 3px -3.3em;
+    z-index: -1;
+    position: absolute;
+}
+
+.card{
+    width: 55em;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 10px auto;
+   padding: 20px;
+   /* background-color: var(--magenta-pantone); */
+   transform: translate(0px, 50px);
+   border-radius: 10px;
+   box-shadow: 1px 0px 40px 15px var(--dark-purple);
+}
+
+
+
+.title{
+    text-align: center;
+    margin-right: 20px;
+}
+
+.title img{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 20px;
+    transform: translate(0px, -20px);
+    object-fit: cover;
+}
+
+.title h1{
+    transform: translate(0px, 30px);
+    margin: 20px;
+}
+
+.card p{
+    height: 60%;
+    text-align: center;
+
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    margin: 20px;
+    font-size: 20px;
+}
+
+i{
+    transition: 0.3s;
+}
+
+.links a:hover .fa-instagram{
+    font-size: 30px;
+    background: -webkit-linear-gradient(var(--magenta-pantone), #f5f102);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links a:hover .fa-x-twitter{
+    font-size: 30px;
+    background: -webkit-linear-gradient(black, black, white, black, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sec-2{
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 65px;
+    /* background-image: url(Images/mountainsr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+    z-index: 100; */
+}
+
+.sec-2 h1{
+    text-align: center;
+    font-size: 40px;
+    
+}
+.no{
+    margin: 350px;
+    font-size: 100px;
+    text-align: center;
+}
+
+
+
+.service{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 75px;
+}
+
+.card-title{
+    margin-right: 40px;
+}
+
+
+
+.card-content{
+    text-align: center;
+    width: 33em;
+    height: 100%;
+}
+
+.unity-ground{
+    background-color: #404040;
+}
+
+
+.blender-ground{
+    background-color: #0a2e50;
+}
+
+
+.moho-ground{
+    background-color: #d74919;
+}
+
+
+/* Unity */
+#unity{
+    width: 220px;
+    height: 220px;
+    margin-left: 20px;
+}
+
+
+/* Blender */
+#blender{
+    width: 230px;
+    height: 200px;
+}
+.blender{
+    margin-left: 50px;
+    color: #eb7700;
+}
+
+/* Moho */
+#moho{
+    width: 250px;
+    height: 250px;
+}
+
+.moho{
+    color: #0e5395;
+}
+
+.sec-3{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 110vh;
+    /* background-image: url(Images/mountainsr.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-attachment: fixed;
+    z-index: 100; */
+}
+
+.sec-3 .title{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.games{
+    /* width: 84em; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.game{
+    width: 26em;
+    min-height: 16em;
+    background-color: #08010f;
+    border-radius: 10px;
+    box-shadow: 3px 0px 30px 7px var(--dark-purple);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game img{
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.game p{
+    margin: 20px;
+}
+
+#sha7kh{
+    width: 300px;
+    height: 195px;
+}
+
+.games a{
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-family: speed;
+    transition: 0.4s;
+}
+
+
+.games #down-1:hover{
+    color: #13b932;
+    font-size: 40px;
+}
+
+.games #down-2:hover{
+    color: #1263a0;
+    font-size: 40px;
+}
+
+.games #down-3:hover{
+    color: #fec632;
+    font-size: 40px;
+}
+
+
+
+footer{
+    width: 100%;
+    min-height: 35vh;
+    background-color: var(--black-2);
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer::before{
+    content: "";
+    position: absolute;
+    background: linear-gradient(var(--dark-purple_ground), transparent);
+    width: 100%;
+    height: 15px;
+    top: 0;
+    left: 0;
+}
+
+footer ul{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.hidden{
+    transform: translateX(-100%);
+    transition: 0.7s;
+    opacity: 0;    
+    filter: blur(3px);
+}
+
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+    filter: blur(0px);
+}
+
+.game:nth-child(1){
+    transition-delay: 100ms;
+}
+
+
+.game:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.game:nth-child(3){
+    transition-delay: 300ms;
+}
+
+@media(max-width: 450px){
+    .card{
+        flex-direction: column;
+        width: 90%;
+        
+    }
+
+
+    .card .title{
+        margin: 0;
+        transform: translate(0, 0);
+    }
+
+    .card .title img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card .title h1{
+        transform: translate(0, 0);
+    }
+
+    .cards .card .card-title{
+        margin: 0px;
+    }
+    
+    /* Unity */
+#unity{
+    width: 120px;
+    height: 120px;
+    margin-left: 0px;
+}
+
+
+/* Blender */
+#blender{
+    width: 130px;
+    height: 100px;
+    margin-right: 35px;
+}
+.blender{
+    margin: 0;
+}
+
+/* Moho */
+#moho{
+    width: 150px;
+    height: 150px;
+    margin-right: 1em;
+}
+
+    .cards .card-content{
+        width: 17em;
+    }
+
+
+    .sec-3{
+        height: 260vh;
+    }
+    .games{
+        flex-direction: column;
+    }
+    .game{
+        width: 21em;
+        margin-bottom: 30px;
+    }
+
+    .game img{
+        width: 300px;
+    }
+
+    footer{
+        min-height: 36vh;
+    }
+
+    footer ul{
+        margin: 0;
+    }
+
+    footer ul:first-child li{
+        font-size: 22px;
+    }
+}
+
+
+
+
+@media(max-width: 750px){
+    .card{
+        flex-direction: column;
+    }
+
+    .no{
+        margin: 150px 0 0 0;
+        transform: translate(0, 200px);
+    }
+
+    .sec-2 h1{
+        font-size: 30px;
+    }
+
+    .id-card{
+        width: 24em;
+    }
+    .card-content{
+        width: 25em;
+    }
+
+    .sec-1 .card .title{
+        margin: 0;
+    }
+
+    .sec-1 .card .title h1{
+        transform: translate(0, 0);
+    }
+}
+
+@media(max-width: 879px){
+    .id-card{
+        width: 90%;
+    }
+}
+
+
+
